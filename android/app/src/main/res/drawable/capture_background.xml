@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false"><shape android:shape="oval"><solid android:color="#596471"/><stroke android:width="4dp" android:color="#B1BFCE"/><padding android:left="8dp" android:top="8dp" android:right="8dp" android:bottom="8dp"/></shape></item>
+    <item android:state_activated="true"><layer-list><item><shape android:shape="oval"><solid android:color="#171E27"/><stroke android:width="4dp" android:color="@color/pc_record"/></shape></item><item android:width="28dp" android:height="28dp" android:gravity="center"><shape><solid android:color="@color/pc_record"/><corners android:radius="5dp"/></shape></item></layer-list></item>
+    <item android:state_selected="true"><ripple android:color="#66FFFFFF"><item><shape android:shape="oval"><solid android:color="@color/pc_record"/><stroke android:width="4dp" android:color="#F1F5F9"/></shape></item></ripple></item>
+    <item><ripple android:color="#8862D9F3"><item><shape android:shape="oval"><solid android:color="#F1F5F9"/><stroke android:width="4dp" android:color="@color/pc_accent"/></shape></item></ripple></item>
+</selector>

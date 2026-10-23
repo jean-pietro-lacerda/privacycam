@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/ShiqiYu/libfacedetection.train",
+  "revision": "dca340aa082c71081a68d17db8e58b33a58a914b",
+  "variant": "yunet_n",
+  "checkpoint": "weights/yunet_n.pth",
+  "checkpoint_git_blob": "441b9440a911fd79593e1194ba2528e1791523f6"
+}

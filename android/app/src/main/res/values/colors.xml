@@ -1,0 +1,8 @@
+<resources>
+    <color name="pc_background">#0B0F14</color>
+    <color name="pc_surface">#171E27</color>
+    <color name="pc_text">#F1F5F9</color>
+    <color name="pc_muted">#B1BFCE</color>
+    <color name="pc_accent">#62D9F3</color>
+    <color name="pc_record">#FF737C</color>
+</resources>

@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+privacycam_wrapper_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -n "${JAVA_HOME:-}" ]; then
+    privacycam_java="$JAVA_HOME/bin/java"
+else
+    privacycam_java=java
+fi
+exec "$privacycam_java" -classpath "$privacycam_wrapper_dir/gradle/wrapper/gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain "$@"
